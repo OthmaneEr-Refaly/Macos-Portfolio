@@ -1,9 +1,10 @@
-import Navbar from "./components/Navbar";
+import { Navbar, Welcome } from "./components/Index.js";
 
 const App = () => {
   return (
     <main>
       <Navbar />
+      <Welcome />
     </main>
   );
 };
