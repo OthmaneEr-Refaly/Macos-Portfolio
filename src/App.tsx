@@ -1,10 +1,11 @@
-import { Navbar, Welcome } from "./components/Index.js";
+import { Navbar, Welcome, Dock } from "./components/Index.js";
 
 const App = () => {
   return (
     <main>
       <Navbar />
       <Welcome />
+      <Dock />
     </main>
   );
 };
