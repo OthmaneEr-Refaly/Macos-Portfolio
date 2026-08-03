@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { Navbar, Welcome, Dock, BootScreen } from "./components/Index.js";
+import { Navbar, Welcome, Dock, BootScreen, Home } from "./components/Index.js";
 import {Terminal, Safari, Resume, Finder, Contact, Text, Image} from "./windows/Index.js";
 
 import WindowWrapper from "./hoc/WindowWrapper.js";
@@ -42,6 +42,8 @@ const App = () => {
           <Contact />
           <Text />
           <Image />
+
+          <Home />
         </main>
       )}
     </>

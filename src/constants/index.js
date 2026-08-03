@@ -14,6 +14,11 @@ const navLinks = [
     name: "Resume",
     type: "resume",
   },
+  {
+    id: 5,
+    name: "Socials",
+    type: "socials",
+  }
 ];
 
 const navIcons = [
@@ -202,6 +207,7 @@ const gallery = [
     id: 4,
     img: "/images/gal4.png",
   },
+  
 ];
 
 export {
