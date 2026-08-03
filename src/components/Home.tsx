@@ -21,11 +21,11 @@ const Home = () => {
     }, []);
 
     return (
-        <section id="home" className="absolute inset-0 z-0">
+        <section id="home" className="absolute inset-0 z-0 pointer-events-none">
             <ul >
                 {projects.map((project) => (
                     <li key={project.id}
-                        className={clsx("group folder", project.windowPosition)}
+                        className={clsx("group folder pointer-events-auto", project.windowPosition)}
                         onDoubleClick={() => handleOpenProject(project)}>
                         <img src={project.icon} alt={project.name} draggable={false}/>
                         <p >
