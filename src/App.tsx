@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { Navbar, Welcome, Dock, BootScreen, Home } from "./components/Index.js";
-import {Terminal, Safari, Resume, Finder, Contact, Text, Image} from "./windows/Index.js";
+import {Terminal, Safari, Resume, Finder, Contact, Text, Image, Gallery} from "./windows/Index.js";
 
 import WindowWrapper from "./hoc/WindowWrapper.js";
 import {Draggable} from "gsap/Draggable";
@@ -42,6 +42,7 @@ const App = () => {
           <Contact />
           <Text />
           <Image />
+          <Gallery />
 
           <Home />
         </main>
