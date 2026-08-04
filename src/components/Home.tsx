@@ -21,14 +21,14 @@ const Home = () => {
     }, []);
 
     return (
-        <section id="home" className="absolute inset-0 z-0">
-            <ul className="w-full h-full relative">
+        <section id="home" className="absolute inset-0 z-0 pointer-events-none">
+            <ul >
                 {projects.map((project) => (
                     <li key={project.id}
-                        className={clsx("group folder absolute flex flex-col items-center justify-start w-28 cursor-pointer", project.windowPosition)}
+                        className={clsx("group folder pointer-events-auto", project.windowPosition)}
                         onDoubleClick={() => handleOpenProject(project)}>
-                        <img src={project.icon} alt={project.name} className="w-16 h-16 drop-shadow-md group-hover:scale-105 transition-transform" draggable={false}/>
-                        <p className="text-white text-xs font-medium mt-1 text-center bg-black/40 px-2 py-0.5 rounded-sm drop-shadow line-clamp-2">
+                        <img src={project.icon} alt={project.name} draggable={false}/>
+                        <p >
                             {project.name}
                         </p>
                     </li>

@@ -19,7 +19,7 @@ const Contact = () => {
         const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         const canHover = window.matchMedia('(hover: hover)').matches;
 
-        if (prefersReducedMotion || !canHover) return;
+        // if (prefersReducedMotion || !canHover) return;
 
         // Initialize hue Custom Property
         gsap.set(card, { '--hue': 230 });
@@ -100,7 +100,7 @@ const Contact = () => {
                     // Highlighting the rim and casting an ambient colored drop shadow
                     boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.4), 0 25px 50px -12px hsla(var(--hue, 230), 60%, 20%, 0.5)',
                     transformStyle: 'preserve-3d',
-                    '--hue': 230,
+                    // '--hue': 10000,
                     // Optional subtle liquid warp effect
                     // filter: 'url(#liquidWarp)' // Uncomment to apply liquid distortion
                 }}
