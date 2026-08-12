@@ -227,7 +227,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "MyCel Freelancer CRM Website",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -235,7 +235,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "MyCel Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -249,7 +249,7 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "MyCel.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -258,21 +258,12 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "MyCel.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
           imageUrl: "/images/project-1.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
         },
       ],
     },
@@ -280,7 +271,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "ai architecture visualization app",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -288,7 +279,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "ai architecture visualization app.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -302,7 +293,7 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "ai-architecture-visualization-app.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -311,21 +302,12 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "ai-architecture-visualization-app.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
           imageUrl: "/images/project-2.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 left-5",
         },
       ],
     },
@@ -333,7 +315,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Backend Diagrams",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -341,7 +323,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Backend Diagrams Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -355,7 +337,7 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "Backend Diagrams.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -364,21 +346,12 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "Backend Diagrams1.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
           imageUrl: "/images/project-3.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
         },
       ],
     },

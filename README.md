@@ -19,14 +19,56 @@
 
 ## 🖥️ Preview
 
-> 📸 *Screenshot coming soon — drop yours here!*
+### Home Screen
 
-<!-- Replace the line below with your actual screenshot once you have one -->
-<!-- ![Portfolio Preview](./public/images/preview.png) -->
+<!-- 📸 Replace the src below with your actual home screen screenshot path -->
+<p align="center">
+  <img src="./public/images/preview-home.png" alt="macOS Portfolio — Home Screen" width="100%" />
+</p>
 
 <p align="center">
-  <em>An macOS-style desktop experience, right in your browser.</em>
+  <em>A fully interactive macOS-style desktop experience, right in your browser.</em>
 </p>
+
+<br/>
+
+### Features
+
+<!-- 📸 Replace each src with your actual feature screenshot paths -->
+<!-- Each row holds 2 screenshots side by side. Add or remove <tr> blocks as needed. -->
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="./public/images/preview-projects.png" alt="Projects Window" width="100%" />
+      <br/><sub><b>📁 Projects</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="./public/images/preview-terminal.png" alt="Skills Terminal" width="100%" />
+      <br/><sub><b>💻 Skills Terminal</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <!-- <td align="center" width="50%">
+      <img src="./public/images/preview-safari.png" alt="Safari — README Viewer" width="100%" />
+      <br/><sub><b>🌐 Safari — README Viewer</b></sub> -->
+    <!-- </td>
+    <td align="center" width="50%">
+      <img src="./public/images/preview-contact.png" alt="Contact Window" width="100%" />
+      <br/><sub><b>📬 Contact</b></sub>
+    </td> -->
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./public/images/preview-gallery.png" alt="Photo Gallery" width="100%" />
+      <br/><sub><b>🖼️ Gallery</b></sub>
+    <!-- </td>
+    <td align="center" width="50%">
+      <img src="./public/images/preview-resume.png" alt="Resume Viewer" width="100%" />
+      <br/><sub><b>📄 Resume</b></sub>
+    </td> -->
+  </tr>
+</table>
 
 ---
 
