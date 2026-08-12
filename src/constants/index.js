@@ -16,7 +16,7 @@ const navLinks = [
   },
   {
     id: 5,
-    name: "Socials",
+    name: ".",
     type: "socials",
   }
 ];
@@ -403,16 +403,16 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/Othmane-1.JPG",
     },
     {
       id: 2,
-      name: "casual-me.png",
+      name: "me.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/IMG_4878.JPG",
     },
     {
       id: 3,
@@ -421,7 +421,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/IMG_9110.HEIC",
     },
     {
       id: 4,
@@ -431,12 +431,12 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/Othmane-1.JPG",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Othmane 👋, a backend developer who enjoys building reliable, secure, and well-structured server-side applications.",
+        "I work primarily with TypeScript and NestJS, alongside tools like Prisma, PostgreSQL, and Postman to build and test robust APIs.",
+        "I care about clean architecture, efficient algorithms, and writing code that is maintainable, testable, and easy to build on.",
+        "Outside of development, I enjoy exploring new technologies, solving complex problems, and constantly looking for ways to improve how I build software.",
       ],
     },
   ],
@@ -455,8 +455,6 @@ const RESUME_LOCATION = {
       icon: "/images/pdf.png",
       kind: "file",
       fileType: "pdf",
-      // you can add `href` if you want to open a hosted resume
-      // href: "/your/resume/path.pdf",
     },
   ],
 };
