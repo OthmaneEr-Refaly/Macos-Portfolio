@@ -241,10 +241,10 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Mycel is a team-built Freelancer CRM designed to centralize client, project, and workflow management in one place.",
+            "The platform provides tools for managing clients, projects, tasks, and day-to-day business operations.",
+            "I was responsible for the backend development, including the REST API, authentication system, database architecture, and core business logic.",
+            "The backend is built with NestJS, Prisma, and PostgreSQL, with a focus on clean architecture, security, and maintainable code.",
           ],
         },
         {
@@ -263,7 +263,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          imageUrl: "/images/MycelProject.png",
         },
       ],
     },
